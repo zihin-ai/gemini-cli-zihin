@@ -1,0 +1,20 @@
+{
+  "name": "zihin",
+  "version": "0.1.0",
+  "description": "Zihin.ai agent platform: chat with your Zihin agents, manage them and load platform skills (96 tools).",
+  "settings": [
+    {
+      "name": "Zihin API Key",
+      "description": "API Key from the Zihin console (zhn_live_*, zhn_test_* or zhn_dev_*).",
+      "envVar": "ZIHIN_API_KEY",
+      "sensitive": true
+    }
+  ],
+  "mcpServers": {
+    "zihin": {
+      "command": "npx",
+      "args": ["-y", "@zihin/mcp-server"]
+    }
+  },
+  "contextFileName": "GEMINI.md"
+}
