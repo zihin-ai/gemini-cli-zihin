@@ -17,8 +17,18 @@ Requires Node.js >= 20 (the MCP server runs via `npx @zihin/mcp-server`).
 
 ## What you get
 
-- The `zihin` MCP server (96 tools: chat with agents, list/manage them, triggers, skills).
+- The `zihin` MCP server (88 tools for an admin key, as of 2026-10-04: chat with agents, list/manage them,
+  triggers, governance). The exact set depends on the key's role and is discovered from the server.
 - A `GEMINI.md` context file teaching Gemini CLI how to use the tools well.
+
+## Update
+
+```bash
+gemini extensions update zihin
+```
+
+Restart the Gemini CLI session afterwards. The MCP server itself runs through `npx @zihin/mcp-server`,
+and the tools come from the Zihin server, so the tool list is current regardless of the extension version.
 
 ## License
 
