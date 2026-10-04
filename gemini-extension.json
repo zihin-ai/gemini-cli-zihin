@@ -1,7 +1,7 @@
 {
   "name": "zihin",
-  "version": "0.1.0",
-  "description": "Zihin.ai agent platform: chat with your Zihin agents, manage them and load platform skills (96 tools).",
+  "version": "0.1.1",
+  "description": "Zihin.ai agent platform: chat with your Zihin agents, manage them and load platform skills.",
   "settings": [
     {
       "name": "Zihin API Key",
