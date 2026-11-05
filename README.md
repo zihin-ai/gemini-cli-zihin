@@ -33,3 +33,7 @@ and the tools come from the Zihin server, so the tool list is current regardless
 ## License
 
 MIT — see [zihin-ai/zihin-mcp](https://github.com/zihin-ai/zihin-mcp) for the underlying server.
+
+---
+
+Made by [Zihin.ai](https://www.zihin.ai). If this project is useful to you, a ⭐ helps others find it.
