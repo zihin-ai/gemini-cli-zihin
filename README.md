@@ -15,10 +15,16 @@ You will be prompted for your Zihin API Key (get one at the Zihin console; forma
 
 Requires Node.js >= 20 (the MCP server runs via `npx @zihin/mcp-server`).
 
+This extension connects with an **API Key**. The Zihin server also accepts signing in with a Zihin
+account (no API Key) on a per-company URL, but that path has not been verified with Gemini CLI and
+the extension does not configure it. See the
+[server docs](https://docs.zihin.ai/integrations/mcp-server) for the clients covered.
+
 ## What you get
 
-- The `zihin` MCP server (88 tools for an admin key, as of 2026-10-04: chat with agents, list/manage them,
-  triggers, governance). The exact set depends on the key's role and is discovered from the server.
+- The `zihin` MCP server (106 tools for an owner/admin key, 57 for editor and 5 for member, as of
+  2026-11: chat with agents, list/manage them, triggers, governance). The exact set depends on the
+  key's role and is discovered from the server.
 - A `GEMINI.md` context file teaching Gemini CLI how to use the tools well.
 
 ## Update
